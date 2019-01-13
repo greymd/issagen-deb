@@ -13,10 +13,8 @@ Use Debian-based Linux like Ubuntu.
 $ VERSION="X.X.X"
 $ git clone --recursive https://github.com/greymd/issagen-deb.git
 $ cd issagen-deb
-$ bash edit_changelog.sh
-$ git diff
-# => Check result and edit changelog as you like.
-# Please refer to "Versioning" section in this file.
+$ ( cd issagen-template; dch )
+# => Edit changelog as you like.
 
 # Fetch issagen which has given VERSION
 $ ( cd issagen.git; git checkout "v$VERSION" )
