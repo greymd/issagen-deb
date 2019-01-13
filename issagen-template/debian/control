@@ -1,19 +1,17 @@
 Source: issagen
-Version: 1.0.0
 Section: utils
 Priority: optional
 Maintainer: Yamada, Yasuhiro <greengregson@gmail.com>
-Build-Depends: debhelper (>=9), tmux
+Build-Depends: debhelper (>=9), imagemagick
 Standards-Version: 3.9.7
 Homepage: https://github.com/greymd/issagen
 Vcs-Git: https://github.com/greymd/issagen.git
 Vcs-Browser: https://github.com/greymd/issagen
 
 Package: issagen
-Version: 1.0.0
 Section: contrib/utils
 Depends: imagemagick
 Architecture: all
 Maintainer: Yamada, Yasuhiro <greengregson@gmail.com>
 Description: <Issa generator>
- <Issa generator.>
+<Issa Generator: Generate Issa animation file on the current directory.>
