@@ -3,11 +3,11 @@ Upstream-Name: issagen
 Source: <https://github.com/greymd/issagen>
 
 Files: *
-Copyright: 2017 YAMADA, Yasuhiro <greengregson@gmail.com>
+Copyright: 2019 YAMADA, Yasuhiro <greengregson@gmail.com>
 License: MIT
 
 Files: debian/*
-Copyright: 2017 YAMADA, Yasuhiro <greengregson@gmail.com>
+Copyright: 2019 YAMADA, Yasuhiro <greengregson@gmail.com>
 License: MIT
 
 License: MIT
