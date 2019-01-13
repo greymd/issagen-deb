@@ -31,7 +31,7 @@ $ cp -rL issagen-template issagen-${VERSION}
 $ cd issagen-${VERSION}
 
 # Install dependency before the build.
-$ sudo apt-get update && sudo apt-get install -y tmux
+$ sudo apt-get update && sudo apt-get install -y imagemagick
 
 # Dry build
 $ debuild -us -uc
