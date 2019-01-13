@@ -60,16 +60,6 @@ $ sudo dpkg -i issagen_${VERSION}*.deb
 $ sudo dpkg --remove issagen
 
 # --------------------
-# Upload to Launchpad
-# --------------------
-
-# For test
-$ dput ppa:greymd/issagen-dev issagen_${VERSION}*_source.changes
-
-# For production
-$ dput ppa:greymd/issagen issagen_${VERSION}*_source.changes
-
-# --------------------
 # Cleaning
 # --------------------
 # Delete all the untracked files.
