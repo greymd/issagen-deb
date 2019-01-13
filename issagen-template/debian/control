@@ -14,4 +14,4 @@ Depends: imagemagick
 Architecture: all
 Maintainer: Yamada, Yasuhiro <greengregson@gmail.com>
 Description: <Issa generator>
-<Issa Generator: Generate Issa animation file on the current directory.>
+ <Generate Issa animation file on the current directory.>
